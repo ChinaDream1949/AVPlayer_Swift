@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D06518F0256658870032FDF7 /* Warcraft.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D06518EF256658870032FDF7 /* Warcraft.mp4 */; };
 		D0D904C725656A1000E9E1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D904C625656A1000E9E1D9 /* AppDelegate.swift */; };
 		D0D904C925656A1000E9E1D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D904C825656A1000E9E1D9 /* SceneDelegate.swift */; };
 		D0D904CB25656A1000E9E1D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D904CA25656A1000E9E1D9 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D06518EF256658870032FDF7 /* Warcraft.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Warcraft.mp4; sourceTree = "<group>"; };
 		D0D904C325656A1000E9E1D9 /* AVPlayer_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayer_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D904C625656A1000E9E1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D904C825656A1000E9E1D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				D0D904C625656A1000E9E1D9 /* AppDelegate.swift */,
 				D0D904C825656A1000E9E1D9 /* SceneDelegate.swift */,
 				D0D904CA25656A1000E9E1D9 /* ViewController.swift */,
+				D06518EF256658870032FDF7 /* Warcraft.mp4 */,
 				D0D904CC25656A1000E9E1D9 /* Main.storyboard */,
 				D0D904CF25656A1200E9E1D9 /* Assets.xcassets */,
 				D0D904D125656A1200E9E1D9 /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D904D325656A1200E9E1D9 /* LaunchScreen.storyboard in Resources */,
+				D06518F0256658870032FDF7 /* Warcraft.mp4 in Resources */,
 				D0D904D025656A1200E9E1D9 /* Assets.xcassets in Resources */,
 				D0D904CE25656A1000E9E1D9 /* Main.storyboard in Resources */,
 			);
@@ -446,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ChengduShawCompany.AVPlayer-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ChengduShawCompany.AVPlayer-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
